@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JTNibManager", "JTNibManager\JTNibManager.csproj", "{9F3489C8-954D-47CD-89B0-D711008A47B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NibManagerTest", "NibManagerTest\NibManagerTest.csproj", "{25F790B9-B6E9-463E-BCE9-D0CF34665E07}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25F790B9-B6E9-463E-BCE9-D0CF34665E07}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{25F790B9-B6E9-463E-BCE9-D0CF34665E07}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
+		{25F790B9-B6E9-463E-BCE9-D0CF34665E07}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{25F790B9-B6E9-463E-BCE9-D0CF34665E07}.Debug|iPhone.Build.0 = Debug|iPhone
+		{25F790B9-B6E9-463E-BCE9-D0CF34665E07}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{25F790B9-B6E9-463E-BCE9-D0CF34665E07}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{25F790B9-B6E9-463E-BCE9-D0CF34665E07}.Release|Any CPU.ActiveCfg = Release|iPhoneSimulator
+		{25F790B9-B6E9-463E-BCE9-D0CF34665E07}.Release|Any CPU.Build.0 = Release|iPhoneSimulator
+		{25F790B9-B6E9-463E-BCE9-D0CF34665E07}.Release|iPhone.ActiveCfg = Release|iPhone
+		{25F790B9-B6E9-463E-BCE9-D0CF34665E07}.Release|iPhone.Build.0 = Release|iPhone
+		{25F790B9-B6E9-463E-BCE9-D0CF34665E07}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{25F790B9-B6E9-463E-BCE9-D0CF34665E07}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{9F3489C8-954D-47CD-89B0-D711008A47B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F3489C8-954D-47CD-89B0-D711008A47B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F3489C8-954D-47CD-89B0-D711008A47B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F3489C8-954D-47CD-89B0-D711008A47B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = NibManagerTest\NibManagerTest.csproj
+	EndGlobalSection
+EndGlobal
