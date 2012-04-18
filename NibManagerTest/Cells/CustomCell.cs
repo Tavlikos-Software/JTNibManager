@@ -32,7 +32,7 @@ namespace NibManagerTest
 		{
 		}
 		
-		
+				
 		#region Outlets
 		
 		[Outlet("customTitleLabel")]
@@ -54,6 +54,7 @@ namespace NibManagerTest
 			
 		}
 		#endregion
+		
 	}
 }
 

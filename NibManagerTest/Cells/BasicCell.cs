@@ -33,6 +33,7 @@ namespace NibManagerTest
 		{
 		}
 		
+		
 		#region ICellPopulator implementation
 		public void PopulateCell (string text, string subtitle)
 		{
