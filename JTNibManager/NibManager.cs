@@ -35,9 +35,6 @@ namespace JTNibManager
 		{
 			this.nibCache = new Dictionary<string, UINib>();
 			this.emptyDict = new NSDictionary();
-			
-			this.mwReceivedObserver = 
-				NSNotificationCenter.DefaultCenter.AddObserver(UIApplication.DidReceiveMemoryWarningNotification, this.ReceivedMemoryWarning);
 		}
 		
 		#endregion Constructors
@@ -123,15 +120,7 @@ namespace JTNibManager
 			
 		}//end UINib GetNib
 		
-		
-		
-		private void ReceivedMemoryWarning(NSNotification ntf)
-		{
-			
-			this.CleanUpNibs();
-			
-		}//end void ReceivedMemoryWarning
-		
+				
 		
 		
 		private void CleanUpNibs()
@@ -155,7 +144,7 @@ namespace JTNibManager
 		protected override void Dispose (bool disposing)
 		{			
 			this.CleanUpNibs();
-			NSNotificationCenter.DefaultCenter.RemoveObserver(this.mwReceivedObserver);
+			this.emptyDict.Dispose();
 			
 			base.Dispose (disposing);
 		}

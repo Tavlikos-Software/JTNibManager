@@ -64,6 +64,7 @@ namespace JTNibManager
 		
 		public NibManager Manager { get; private set; }
 		#endregion
+		
 	}
 }
 
